@@ -1,0 +1,45 @@
+{
+	"resourceType": "Encounter",
+	"id": "68f0ff3f-db8b-4c60-85ce-96d68402d34d",
+	"identifier": [
+		{
+			"use": "usual",
+			"system": "urn:uh-encounter-id",
+			"value": "272023"
+		}
+	],
+	"status": "in-progress",
+	"class": {
+		"system": "urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260",
+		"code": "3",
+		"display": "Admission"
+	},
+	"type": [
+		{
+			"coding": [
+				{
+					"system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.10110",
+					"code": "101",
+					"display": "Inpatient"
+				}
+			],
+			"text": "Inpatient"
+		}
+	],
+	"serviceType": {
+		"coding": [
+			{
+				"system": "http://hl7.org/fhir/ValueSet/service-type",
+				"code": "13",
+				"display": "Acupuncture"
+			}
+		],
+		"text": "Acupuncture"
+	},
+	"subject": {
+		"reference": "Patient/9bb3d127-e6a4-48a3-9c30-0561c4bc0172"
+	},
+	"period": {
+		"start": "2024-01-17T15:22:00Z"
+	}
+}
